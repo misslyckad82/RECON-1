@@ -5,8 +5,8 @@
 # Kan användas för följande attacker:
 # [Skriv möjliga attacker]
 #
-# Author: Frans Schartau
-# Last Update: 2025-01-01
+# Author: Sanna Rytilahti
+# Last Update: 2025-12-14
 
 
 echo "Välkommen till RECON script för att kontrollera en Linux-miljö"
@@ -52,6 +52,10 @@ echo "=== SHELL-KONTON ==="
 cat /etc/passwd grep "sh$"
 
 echo
+echo "=== PRIVAT IP ==="
+ip a
+
+echo
 echo "=== PUBLIK IP- OCH PLATSINFO ==="
 curl https://ipapi.co/json/
 
@@ -60,7 +64,7 @@ echo "=== ÖPPNA PORTAR ==="
 ss -tuln
 
 echo
-echo "=== SLUT PÅ RECON SCRIPT ==="
+echo "=== SLUT PÅ KONTROLL ==="
 
 
  
