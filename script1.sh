@@ -44,10 +44,6 @@ echo "=== CPU-ARKITEKTUR ==="
 lscpu
 
 echo
-echo "=== PROCESSER OCH RESURSANVÄNDNING ==="
-top
-
-echo
 echo "=== SHELL-KONTON ==="
 cat /etc/passwd grep "sh$"
 
@@ -64,11 +60,11 @@ echo "=== ÖPPNA PORTAR ==="
 ss -tuln
 
 echo
+echo "=== PROCESSER OCH RESURSANVÄNDNING ==="
+top
+
+echo
 echo "=== SLUT PÅ KONTROLL ==="
-
-
- 
-# skriv in dina egna kommandon för tester
 
 
 
