@@ -67,7 +67,8 @@ echo
 echo "=== SLUT PÅ KONTROLL ==="
 
 
- 
+echo
+echo "=== SLUT PÅ KONTROLL ==="
 
 
 
